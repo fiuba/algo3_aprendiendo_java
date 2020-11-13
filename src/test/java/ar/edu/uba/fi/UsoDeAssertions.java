@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit test for simple App.
  */
-public class PruebasDeLenguaje
+public class UsoDeAssertions
 {
     @Test
     public void dosNumerosDebenSerIguales()
