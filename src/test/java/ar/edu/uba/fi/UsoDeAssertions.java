@@ -25,7 +25,7 @@ public class UsoDeAssertions
 
         // equivalente a `self assert:`
         assertEquals("Algoritmos y Programación", "Algoritmos y Programación");
-
+        assertNotEquals("Algoritmos y ProgramacióN", "Algoritmos y Programación");
     }
 
     @Test
@@ -48,6 +48,7 @@ public class UsoDeAssertions
         assertEquals(unaCasa, otroCasa);
 
         assertSame(unaCasa, unaCasa);
+        assertNotSame(unaCasa, otroCasa);
 
     }
 
@@ -74,7 +75,7 @@ public class UsoDeAssertions
         // self should: [ task() ] raise: UnknownError.
         assertThrows(UnknownError.class, task);
 
-        // No hay equivalente
+        // self shouldnt: [ task() ] raise: UnknownError.
         assertDoesNotThrow(() -> {
             System.out.println();
         });

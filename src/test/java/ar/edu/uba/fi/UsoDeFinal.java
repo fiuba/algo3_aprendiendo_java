@@ -9,6 +9,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UsoDeFinal {
 
+    // enteros -> @123
+
+
+    // @123: [1,2,3]
+    // @999: []
     private final ArrayList<Integer> enteros = new ArrayList(Arrays.asList(1,2,3));
 
     @Test

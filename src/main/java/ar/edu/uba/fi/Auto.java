@@ -6,6 +6,7 @@ public class Auto {
     private final String marca;
 
     public Auto(String marca) {
+
         this.marca = marca;
     }
 
