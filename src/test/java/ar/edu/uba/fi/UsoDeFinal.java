@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UsoDeFinal {
@@ -21,6 +22,8 @@ public class UsoDeFinal {
 
         assertTrue( enteros.contains(1));
         assertTrue( enteros.contains(2));
+
+        assertFalse( enteros.contains(4));
     }
 
     @Test
