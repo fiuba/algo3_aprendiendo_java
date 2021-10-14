@@ -4,6 +4,12 @@ IMPORTANTE: Leer [Versión de herramientas](#versión-de-herramientas)
 
 Este repositorio nos brinda un conjunto de ejemplos de como utilizar [JUnit5](https://junit.org/junit5/) creando pruebas para esto.
 
+## Temas relevantes
+
+1. Relación clase, archivo y paquete.
+2. Maven
+3. IDE
+4. TDD
 
 ## Manejar varias versiones de java/maven
 
